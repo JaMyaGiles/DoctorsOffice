@@ -1,0 +1,27 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        String patientName = "Stacey Manson";
+        boolean hasInsurance = false;
+        float temp = (float) 102.2;
+        int numVisits = 5;
+
+        System.out.println("Patient Details:");
+        System.out.println("Name: " + patientName);
+        System.out.println("Patient has insurance: " + hasInsurance);
+        System.out.println("Body temperature: " + temp);
+        System.out.println("Number of visits: " + numVisits);
+
+        String copay = "$20.00";
+        String NextADate = "August 20, 2020";
+        String PNum = "313-460-0744";
+
+        System.out.println("Copay amount: " + copay);
+        System.out.println("Next appointment: " + NextADate);
+        System.out.println("Contact number: " + PNum);
+
+    }
+    }
